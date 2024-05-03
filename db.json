@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "id": "1",
+      "name": "Munchkin",
+      "description": "Card-based dungeon crawler where you compete for magic items and loot"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "id": "2",
+      "name": "Dominion",
+      "description": "Deck-building game where you acquire cards to expand your kingdom's land and influence"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "id": "3",
+      "name": "Between Two Cities",
+      "description": "Collaborate with both your neighbors to build cities, and win if the lowest score of your two cities is higher than everyone else's lowest score"
+    }
+  ],
+  "users": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "id": "1",
+      "name": "S. Huh",
+      "description": "2008 edition, includes Alchemy expansion",
+      "itemId": "2"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "id": "2",
+      "name": "N. Chau",
+      "description": "2001 edition",
+      "itemId": "1"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "id": "3",
+      "name": "L. Maurer",
+      "description": "2016 edition, includes Intrigue expansion",
+      "itemId": "2"
+    },
+     {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "id": "4",
+      "name": "M. Chau",
+      "description": "2015 edition",
+      "itemId": "3"
+    }
+  ],
+  "collection": {
+    "@context": "https://schema.org/",
+    "@type": "Collection",
+    "name": "Prototype Board Game API",
+    "creator": "lsmaurer",
+    "about": "A collection of board games",
+    "url": "https://github.com/lsmaurer"
+  }
+}
